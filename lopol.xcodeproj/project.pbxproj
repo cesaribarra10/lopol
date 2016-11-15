@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		5B14620F260F68052F66F072 /* Pods_lopol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAE0D60BDCD0F9012C02EF0 /* Pods_lopol.framework */; };
 		B821870B1DCFE53100A012D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B821870A1DCFE53100A012D3 /* Constants.swift */; };
+		B89A32B81DDADC2C00C80CA7 /* DetialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89A32B71DDADC2C00C80CA7 /* DetialViewController.swift */; };
 		B8E5ED331DCEC81F006D6405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E5ED321DCEC81F006D6405 /* AppDelegate.swift */; };
-		B8E5ED351DCEC81F006D6405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E5ED341DCEC81F006D6405 /* ViewController.swift */; };
+		B8E5ED351DCEC81F006D6405 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E5ED341DCEC81F006D6405 /* HomeViewController.swift */; };
 		B8E5ED381DCEC81F006D6405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E5ED361DCEC81F006D6405 /* Main.storyboard */; };
 		B8E5ED3A1DCEC81F006D6405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E5ED391DCEC81F006D6405 /* Assets.xcassets */; };
 		B8E5ED3D1DCEC81F006D6405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E5ED3B1DCEC81F006D6405 /* LaunchScreen.storyboard */; };
@@ -20,9 +21,10 @@
 		9BAE0D60BDCD0F9012C02EF0 /* Pods_lopol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lopol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8BC9B3ED6D5051D0188BF1 /* Pods-lopol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lopol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lopol/Pods-lopol.debug.xcconfig"; sourceTree = "<group>"; };
 		B821870A1DCFE53100A012D3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B89A32B71DDADC2C00C80CA7 /* DetialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetialViewController.swift; sourceTree = "<group>"; };
 		B8E5ED2F1DCEC81F006D6405 /* lopol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lopol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E5ED321DCEC81F006D6405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B8E5ED341DCEC81F006D6405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8E5ED341DCEC81F006D6405 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B8E5ED371DCEC81F006D6405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8E5ED391DCEC81F006D6405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8E5ED3C1DCEC81F006D6405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,9 +73,10 @@
 		B8E5ED311DCEC81F006D6405 /* lopol */ = {
 			isa = PBXGroup;
 			children = (
-				B8E5ED341DCEC81F006D6405 /* ViewController.swift */,
-				B821870A1DCFE53100A012D3 /* Constants.swift */,
 				B8E5ED361DCEC81F006D6405 /* Main.storyboard */,
+				B8E5ED341DCEC81F006D6405 /* HomeViewController.swift */,
+				B89A32B71DDADC2C00C80CA7 /* DetialViewController.swift */,
+				B821870A1DCFE53100A012D3 /* Constants.swift */,
 				B8FD82381DCECEC2009457D3 /* Supporting Files */,
 			);
 			path = lopol;
@@ -223,7 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E5ED351DCEC81F006D6405 /* ViewController.swift in Sources */,
+				B89A32B81DDADC2C00C80CA7 /* DetialViewController.swift in Sources */,
+				B8E5ED351DCEC81F006D6405 /* HomeViewController.swift in Sources */,
 				B8E5ED331DCEC81F006D6405 /* AppDelegate.swift in Sources */,
 				B821870B1DCFE53100A012D3 /* Constants.swift in Sources */,
 			);
